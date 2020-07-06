@@ -1,0 +1,19 @@
+{
+  "name": "nollup-url-infinite-loop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "nollup -c --hot --verbose --content-base static --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-url": "^5.0.1",
+    "nollup": "^0.12.0",
+    "rollup": "^2.19.0"
+  }
+}
