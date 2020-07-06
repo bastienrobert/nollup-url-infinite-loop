@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
-    "dev": "nollup -c --hot --verbose --content-base static --port 3000",
+    "dev": "nollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
