@@ -7,9 +7,11 @@ export default {
   input: `${src}/index.js`,
   output: {
     dir: dest,
-    format: 'iife',
+    format: 'umd',
     entryFileNames: '[name].[hash].js',
-    assetFileNames: '[name].[hash][extname]',
   },
   plugins: [url()],
+  watch: {
+    exclude: ['dist', 'node_modules', '.git']
+  }
 }
